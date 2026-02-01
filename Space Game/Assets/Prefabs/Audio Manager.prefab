@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8500816184461342607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3728804282984520206}
+  - component: {fileID: 8561306614536341400}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3728804282984520206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8500816184461342607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8561306614536341400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8500816184461342607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffaa04c57fc081e499c466da34a45a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ui: {fileID: 0}
+  Music: {fileID: -2686793592947270927, guid: 58b236f6d7f91324daeba20424e20154, type: 2}
+  SFXMixer: {fileID: 944560964810462243, guid: 58b236f6d7f91324daeba20424e20154, type: 2}
+  AmbiantSounds:
+  - name: Ambiant1
+    clip: {fileID: 8300000, guid: 61aeb642dbc20fe4089762da661973ec, type: 3}
+    volume: 0.05
+    pitch: 1
+    musicAtributes:
+      onlySpecificScenes: 0
+      specificScenes: []
+      prioritySound: 0
+    source: {fileID: 0}
+  - name: Ambiant2
+    clip: {fileID: 8300000, guid: 9547ab85240130c428fa747e4dfae6e1, type: 3}
+    volume: 0.05
+    pitch: 1
+    musicAtributes:
+      onlySpecificScenes: 0
+      specificScenes: []
+      prioritySound: 0
+    source: {fileID: 0}
+  - name: Ambiant3
+    clip: {fileID: 8300000, guid: c495fc7b053b2a149a84c30b28767f69, type: 3}
+    volume: 0.05
+    pitch: 1
+    musicAtributes:
+      onlySpecificScenes: 0
+      specificScenes: []
+      prioritySound: 0
+    source: {fileID: 0}
+  - name: Ambiant4
+    clip: {fileID: 8300000, guid: a5003072d59c28b4e88081632d2def4a, type: 3}
+    volume: 0.05
+    pitch: 1
+    musicAtributes:
+      onlySpecificScenes: 0
+      specificScenes: []
+      prioritySound: 0
+    source: {fileID: 0}
+  - name: Ambiant5
+    clip: {fileID: 8300000, guid: 9fbe5d2b0f7df6643b960aed22b05d74, type: 3}
+    volume: 0.05
+    pitch: 1
+    musicAtributes:
+      onlySpecificScenes: 0
+      specificScenes: []
+      prioritySound: 0
+    source: {fileID: 0}
+  - name: Ambiant6
+    clip: {fileID: 8300000, guid: d521e8e0a2c949745b541dee527d5200, type: 3}
+    volume: 0.05
+    pitch: 1
+    musicAtributes:
+      onlySpecificScenes: 0
+      specificScenes: []
+      prioritySound: 0
+    source: {fileID: 0}
+  - name: VexisAmbiant1
+    clip: {fileID: 8300000, guid: e1b60007d4fd7de44a76100ba48f8b4c, type: 3}
+    volume: 0.05
+    pitch: 1
+    musicAtributes:
+      onlySpecificScenes: 1
+      specificScenes:
+      - _sceneAsset: {fileID: 102900000, guid: fde0902fae50d5b4b9540a58465eb557, type: 3}
+        _sceneName: Vexis Abyss
+      prioritySound: 1
+    source: {fileID: 0}
+  - name: VexisAmbiant2
+    clip: {fileID: 8300000, guid: 41b8f8f78e29a82458c4a2905fb73ce0, type: 3}
+    volume: 0.05
+    pitch: 1
+    musicAtributes:
+      onlySpecificScenes: 1
+      specificScenes:
+      - _sceneAsset: {fileID: 102900000, guid: fde0902fae50d5b4b9540a58465eb557, type: 3}
+        _sceneName: Vexis Abyss
+      prioritySound: 1
+    source: {fileID: 0}
+  sfx: []

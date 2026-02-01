@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dab7f1376939a4e98fad8129752974, type: 3}
+  m_Name: StarLocationsData
+  m_EditorClassIdentifier: 
+  savedDistances:
+  - travelName: Star1 -> Star2
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star1
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star2
+    distance: {x: 80.5, y: 30.4, z: 81.6}
+  - travelName: Star1 -> Star3
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star1
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star3
+    distance: {x: -146.3, y: -52.6, z: 121.3}
+  - travelName: Star1 -> Star4
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star1
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star4
+    distance: {x: 39.7, y: 15, z: -69.6}
+  - travelName: Star2 -> Star1
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star2
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star1
+    distance: {x: -80.5, y: -30.4, z: -81.6}
+  - travelName: Star2 -> Star3
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star2
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star3
+    distance: {x: -226.8, y: -83, z: 39.700005}
+  - travelName: Star2 -> Star4
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star2
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star4
+    distance: {x: -40.8, y: -15.4, z: -151.2}
+  - travelName: Star3 -> Star1
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star3
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star1
+    distance: {x: 146.3, y: 52.6, z: -121.3}
+  - travelName: Star3 -> Star2
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star3
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star2
+    distance: {x: 226.8, y: 83, z: -39.700005}
+  - travelName: Star3 -> Star4
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star3
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star4
+    distance: {x: 186, y: 67.6, z: -190.9}
+  - travelName: Star4 -> Star1
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star4
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star1
+    distance: {x: -39.7, y: -15, z: 69.6}
+  - travelName: Star4 -> Star2
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star4
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star2
+    distance: {x: 40.8, y: 15.4, z: 151.2}
+  - travelName: Star4 -> Star3
+    fromStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star4
+    toStar:
+      _sceneAsset: {fileID: 0}
+      _sceneName: Star3
+    distance: {x: -186, y: -67.6, z: 190.9}
