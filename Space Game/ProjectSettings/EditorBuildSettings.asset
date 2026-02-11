@@ -18,6 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Stars/Vexis Abyss.unity
     guid: fde0902fae50d5b4b9540a58465eb557
   m_configObjects:
+    com.unity.adaptivePerformance.basic.provider_settings: {fileID: 11400000, guid: 54d3364671cf9074ba2a20ee63702d80, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0d3b86057ca7ffd468c30b186f4c772d, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: dd40092799054294aadadc8c51fe925b, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: d74915c4bed06cd4a929b2e2083c80c6, type: 3}
